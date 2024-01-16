@@ -1,0 +1,352 @@
+/* common style properties */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.common-text-color{
+    color: #FF5400;
+}
+.common-bg-color{
+    background-color: #FF5400;
+}
+/* header section style */
+header{
+    margin: 0px 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+.logoAndTitle{
+    display: flex;
+    align-items: center;
+}
+.logoAndTitle img{
+    width: 48px;
+    height: 56.008px;
+}
+.logoAndTitle h1{
+    color: #131318;
+    font-size: 2.25rem;
+    padding-left: 17px;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-left:35px;
+   
+}
+nav ul li{
+    display: inline-block;
+}
+
+header .banner-section{
+    background-image: url('./Images/group13.png');
+    width: 1100px;
+    height: 500px;
+    text-align: center;
+}
+.banner-section h1{
+    color: #FFF;
+    font-size: 4rem;
+    padding-top: 106px;
+}
+.banner-section p{
+    color: #FFF;
+    padding: 24px 247px 48px 247px;
+}
+.input-information{
+    padding: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+
+.input-information button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+.banner-section .red-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background:#FF5400; 
+}
+/* main section style start here */
+main{
+    margin: 0px 120px;
+
+}
+/* Our Popular Tours section style */
+.popular-tour{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+.popular-tour h1{
+    color: #131318;
+    font-size: 2.5rem;
+
+}
+.popular-tour p{
+    color: rgba(19, 19, 24, 0.70);
+    padding: 24px; 
+
+}
+.ul-list{
+    padding:5px 50px;
+    color: rgba(19, 19, 24, 0.70);
+
+}
+.popular-tour button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    border-style: none;
+   
+}
+.mountent-img img{
+    width: 540px;
+    height: 550px;
+}
+/* Destination-section style start here */
+
+.Destination-section{
+    margin-top: 100px;
+}
+.Destination-section h2{
+    color: #131318;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.Destination-section p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 45px;
+
+}
+
+.row{
+    display: flex;
+    gap:15px;
+}
+.Maldives , .Indonesia , .Srilanka ,.North-America ,
+  .Kashmir , .Bangladesh , .Bandarban{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.75rem;
+}
+.img-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* service section style start here */
+.Service-heading{
+    margin-top: 100px;
+    text-align: center;
+}
+.Service-heading h1{
+    color: #131318;
+    font-size: 2.5rem;
+}
+.Service-heading p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    
+}
+.card-row{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-row img , .card-row2 img , .card-2 img{
+    width: 64px;
+    height: 64px;
+    margin: 32px;
+}
+.card-row h1 , .card-row2 h1 , .card-2 h1{
+    color: #131318;
+    font-size: 1.5rem;
+    margin-left: 32px;
+}
+.card-row p , .card-row2 p , .card-2 p{
+    color: #5A5A5D;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
+}
+.card-row2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-2{
+    margin-top: 24px;
+     width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    /* justify-content:space-around; */
+    margin-left:200px;
+}
+/* .last-container style  */
+.last-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+.input-container input {
+    display: block;
+}
+.container-heading{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.container-heading h3{
+    color: #131318;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.container-heading p{
+    color: #5A5A5D;
+    margin-left: 40px;
+}
+.container-heading hr{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    background: rgba(19, 19, 24, 0.10);
+}
+ .input-container input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 16px;
+    padding-left: 20px;
+    border-style: none;
+
+}
+.container-content{
+    position: relative;
+    text-align: center;
+
+}
+.discount{
+    width: 324px;
+    height: 120px;;
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: rotate(-19.628deg);
+}
+.discount p{
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 1.5rem;
+
+}
+.discount h1{
+    color: #FFF;
+    font-size:2rem;
+}
+/* footer section style start here */
+footer{
+    margin-top: 100px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+footer  .logoAndTitle{
+    justify-content: center;
+    padding-top: 110px;
+}
+footer P{
+    color: #5A5A5D;
+    text-align: center;
+    padding-bottom: 24PX;
+
+}
+footer i{
+    padding: 23px;
+}
+footer hr{
+    margin: 0px 285px 50px 285px;
+    background: rgba(19, 19, 24, 0.10);
+
+}
+
+/* responsive design start */
+@media screen and (max-width:600px){
+nav , .popular-tour , .row , .card , .last-container{
+        flex-direction: column;
+    }
+  .logoAndTitle{
+    width: 100%;
+  }
+  header main{
+    margin: 20px 0px;
+  }
+  nav ul li {
+    display:block;
+}
+.banner-section {
+    width: 100%;
+    height: 100%;
+}
+.input-information{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.card-2{
+    margin-left: 0px;
+}
+.Service-heading{
+    margin-left: 150px;
+    width: 80%;
+}
+footer{
+    width: 100%;
+}
+footer hr {
+    margin: 0px 85px 30px 85px;
+
+}
+}
